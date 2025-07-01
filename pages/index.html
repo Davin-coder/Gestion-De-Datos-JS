@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/styles.css">
+    <title>Products-Management</title>
+</head>
+<body>
+    <header>
+        <h1>Products-Management</h1>
+    </header>
+    <main>
+        <section>
+            <div class="add-container">
+                <h2>Add product</h2>
+                <label>Product Name:
+                    <input id="product-name" type="text" placeholder="apple">
+                </label>
+                <label>Product Price:
+                    <input id="product-price" type="number" placeholder="1500">
+                </label>
+                <label>Product Category:
+                    <input id="product-category" type="text" placeholder="fruits">
+                </label>
+                <label>Product ID:
+                    <input id="product-id" type="number" placeholder="1">
+                </label>
+                <button id="crt-product">ADD</button>
+            </div>
+        </section>
+        
+        <section class="list-products-container">
+            <h2>List of products</h2>
+            <div id="products-container">
+                <li>elemento de prueba <button>INFO</button><button>DEL</button></li>
+            </div>
+        </section>
+    </main>
+    <script src="../src/js/utils.js" ></script>
+</body>
+</html>
